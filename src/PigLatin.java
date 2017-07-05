@@ -65,7 +65,7 @@ public class PigLatin {
 
     if ((input != null) && (input.length() > 0)) {
       for (i = startPos; (i < input.length()) && (input.charAt(i) != ' '); ++i) {
-        // Empty for icase needed later
+        // Empty for - in case needed later
       }
     }
 
